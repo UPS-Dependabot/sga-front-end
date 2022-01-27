@@ -6,7 +6,7 @@
  */
  function Stories() {
     return (
-      <div className="Stories">
+      <div className="stories text-center bg-emerald-600 h-2/5">
        Stories Section
       </div>
     );

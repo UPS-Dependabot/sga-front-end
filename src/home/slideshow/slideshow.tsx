@@ -6,7 +6,7 @@
  */
  function Slideshow() {
     return (
-      <div className="Slideshow">
+      <div className="slideshow text-center bg-violet-500 h-3/5">
        Slideshow Section
       </div>
     );

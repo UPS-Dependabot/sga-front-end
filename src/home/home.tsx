@@ -13,12 +13,12 @@ import Slideshow from "./slideshow/slideshow";
 
  function Home() {
    return (
-     <>
+     <div className="h-screen">
        <Header></Header>
-       <SgaDescription></SgaDescription>
        <Stories></Stories>
+       <SgaDescription></SgaDescription>
        <Slideshow></Slideshow>
-     </>
+     </div>
    );
  }
  

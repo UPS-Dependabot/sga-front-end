@@ -6,7 +6,7 @@
  */
  function Header() {
     return (
-      <div className="Header">
+      <div className="header text-center h-3/5">
        Header
       </div>
     );

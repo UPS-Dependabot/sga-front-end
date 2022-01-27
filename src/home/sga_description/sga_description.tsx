@@ -5,7 +5,7 @@
  */
  function SgaDescription() {
     return (
-      <div className="SgaDescription">
+      <div className="sga-description text-center bg-amber-500 h-3/5">
        SGA Description Section
       </div>
     );
