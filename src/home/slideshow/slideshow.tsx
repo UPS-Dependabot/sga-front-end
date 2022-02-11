@@ -6,6 +6,8 @@
 
 export function SlideShowSection() {
     return(
-        <div className="h-1/2 w-full bg-slate-100">1</div>
+        <div className="flex flex-row w-full h-2/3 justify-center">
+            <div className="h-full w-2/3 bg-slate-100 text-center">Slideshow</div>
+        </div>
     );
 }
