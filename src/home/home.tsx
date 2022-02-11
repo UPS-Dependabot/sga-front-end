@@ -1,26 +1,20 @@
 /**
- * slideshow.tsx
+ * Home.tsx
  * 
  * This is the base component for the home page.
  * 
- * DO NOT TOUCH, unless needed to for parallax effect!
+ * DO NOT TOUCH!
  */
 
-import Header from "./header/header";
-import SgaDescription from "./sga_description/sga_description";
-import Stories from "./stories/stories";
-import Slideshow from "./slideshow/slideshow";
-
- function Home() {
-   return (
-     <div className="h-screen">
-       <Header></Header>
-       <Stories></Stories>
-       <SgaDescription></SgaDescription>
-       <Slideshow></Slideshow>
-     </div>
-   );
- }
- 
- export default Home;
- 
+import { SlideShowSection } from "./slideshow/slideshow";
+import { SocialMediaSection } from "./social_media/social_media";
+import { Nav } from "./navbar/navbar";
+export function Home() {
+  return (
+    <div className="h-screen w-screen overflow-y-scroll">
+      <Nav/>
+      <SlideShowSection/>
+      <SocialMediaSection/>
+    </div>
+  );
+}

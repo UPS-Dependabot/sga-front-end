@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './home/home';
+import { Home } from './home/home';
 import reportWebVitals from './reportWebVitals';
 import {
     BrowserRouter,

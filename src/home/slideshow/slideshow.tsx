@@ -1,15 +1,11 @@
 /**
- * slideshow.tsx
+ * slideshow.ts
  * 
- * This is the base component for the slideshow section of the website.
- * Use this as the skeleton of your feature, make more components if necessary in this folder.
+ * Here ya go Gabe!
  */
- function Slideshow() {
-    return (
-      <div className="slideshow text-center bg-violet-500 h-3/5">
-       Slideshow Section
-      </div>
+
+export function SlideShowSection() {
+    return(
+        <div className="h-1/2 w-full bg-slate-100">1</div>
     );
-  }
-  
-  export default Slideshow;
+}
