@@ -3,49 +3,44 @@ import { createTheme } from '@mui/material/styles';
 declare module '@mui/material/styles' {
   interface Theme {
     background: {
-      primary: string,
-      secondary: string,
+      primary?: string,
+      secondary?: string,
     },
     text: {
-      primary: string,
-      secondary: string,
+      primary?: string,
+      secondary?: string,
     },
     action: {
-      primaryActive: string,
-      primarySecondary: string,
-      primaryInactive: string,
+      active?: string,
+      inactive?: string,
     },
   }
 
   interface ThemeOptions {
     background: {
-      primary: string,
-      secondary: string,
+      primary?: string,
+      secondary?: string,
     },
     text: {
-      primary: string,
-      secondary: string,
+      primary?: string,
+      secondary?: string,
     },
     action: {
-      primaryActive: string,
-      primarySecondary: string,
-      primaryInactive: string,
+      active?: string,
+      inactive?: string,
     },
   }
 }
 
 export const THEME_DRACULA = createTheme({
   background: {
-    primary: '',
-    secondary: '',
+    primary: '#D9D4D0',
   },
   text: {
-    primary: '',
-    secondary: '',
+    primary: '#734743',
   },
   action: {
-    primaryActive: '',
-    primarySecondary: '',
-    primaryInactive: '',
+    active: '#D94A56',
+    inactive: '#D90707',
   },
 });
