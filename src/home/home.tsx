@@ -9,6 +9,7 @@ import { Nav } from "./navbar/navbar";
 import { Box } from '@mui/system';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from "../themes";
+import { SgaStamp } from "./navbar/sga_stamp.";
 
 export function Home() {
   return (
@@ -16,9 +17,10 @@ export function Home() {
       <Box
         sx={{
           backgroundColor: "background.default",
-          width: "100vw",
+          width: "100%",
           height: "100vh"
         }}>
+        <SgaStamp />
         <Nav />
         <SlideShowSection />
         <SocialMediaSection />
