@@ -2,19 +2,27 @@
  * Home.tsx
  * 
  * This is the base component for the home page.
- * 
- * DO NOT TOUCH!
  */
-
 import { SlideShowSection } from "./slideshow/slideshow";
 import { SocialMediaSection } from "./social_media/social_media";
 import { Nav } from "./navbar/navbar";
+import { Box } from '@mui/system';
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from "../themes";
+
 export function Home() {
   return (
-    <div className="h-screen w-screen overflow-y-scroll">
-      <Nav/>
-      <SlideShowSection/>
-      <SocialMediaSection/>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Box
+        sx={{
+          backgroundColor: "background.default",
+          width: "100vw",
+          height: "100vh"
+        }}>
+        <Nav />
+        <SlideShowSection />
+        <SocialMediaSection />
+      </Box>
+    </ThemeProvider>
   );
 }
