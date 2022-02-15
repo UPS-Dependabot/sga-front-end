@@ -1,3 +1,9 @@
+/**
+ * sga_stamp.tsx
+ * 
+ * TODO: Find a better way to implement this... looks pretty ugly
+ */
+
 export function SgaStamp(): JSX.Element {
   return (
     <div className="absolute flex flex-row justify-center items-center left-10 top-5 w-[8rem] h-[8rem] rounded-full bg-white border-[1px] border-action-active">

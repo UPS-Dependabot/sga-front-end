@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         'background-default': '#D9D4D0',
+        'background-paper': '#FFFFFF',
         'text-primary': '#734743',
         'action-active': '#D94A56',
         'active-inactive': '#D90707'
